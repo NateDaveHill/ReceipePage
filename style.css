@@ -72,6 +72,14 @@ body {
   font-style: normal;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr {
+  border: lightgrey;
+}
+
 #prepTimeHeader {
   color: hsl(332, 51%, 32%);
 }
