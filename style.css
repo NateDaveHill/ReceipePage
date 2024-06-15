@@ -1,41 +1,66 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(14, 45%, 36%);
 }
 
 .container > div {
-    display: block;
-    width: 500px ; 
-    clear: both; 
+  display: block;
+  width: 500px;
+  clear: both;
 }
-  
+
 .cardBox {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
+.prepTimeBox {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 .cardBox img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
- 
+
+.cardBox h1 {
+  font-family: "Young Serif", serif;
+}
+.cardBox h2 {
+  font-family: "Young Serif", serif;
+}
+
 .attribution {
-    text-align: center;
-    font-size: 12px;
-    color: #555;
-    margin-top: 20px;
-}
-  
-
-.attribution a { 
-    align-self: flex-end;
-    color: hsl(228, 45%, 44%);
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+  margin-top: 20px;
 }
 
+.attribution a {
+  align-self: flex-end;
+  color: hsl(228, 45%, 44%);
+}
 
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+#prepTimeHeader {
+  color: hsl(332, 51%, 32%);
+}
+
+h1 {
+  color: black;
+}
